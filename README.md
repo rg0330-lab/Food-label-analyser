@@ -23,21 +23,28 @@ Prerequisites
 Node.js 18+ or Bun runtime
 Supabase account for backend services
 Google Gemini API key for AI features
+
+
 Installation
 Clone the repository
 
+
 git clone <repository-url>
 cd smart-ingredient-main
+
 Install dependencies
 
 npm install
+
 Configure environment Create a .env file with your credentials:
 
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
 Start development server
 
 npm run dev
+
 Open in browser Navigate to http://localhost:5173
 
 Usage
@@ -53,6 +60,7 @@ Health Score System
 40-59: Fair - Some concerning ingredients present
 20-39: Poor - Multiple health concerns identified
 0-19: Very Poor - Significant health risks detected
+
 Development
 Project Structure
 src/
@@ -61,14 +69,17 @@ src/
 ├── utils/         # Core business logic and utilities
 ├── hooks/         # Custom React hooks
 └── integrations/  # External service connections
+
 Available Scripts
 npm run dev - Start development server
 npm run build - Build for production
 npm run lint - Run code quality checks
 npm run preview - Preview production build
+
 Deployment
 Production Build
 npm run build
+
 Deployment Options
 Vercel - Zero-config deployment with automatic builds
 Netlify - Simple drag-and-drop deployment
